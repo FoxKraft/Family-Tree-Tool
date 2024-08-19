@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tree-container">
+        <div id="tree"></div>
+    </div>
+    <div id="side-panel">
+        <h2>Add person</h2>
+        <input type="text" id="firstName" placeholder="First name">
+        <input type="text" id="lastName" placeholder="Surname">
+        <select id="relationship">
+            <option value="child">Child</option>
+            <option value="sibling">Siblings</option>
+            <option value="spouse">Spouse</option>
+        </select>
+        <button class="add-member" id="addMemberButton">Add</button>
+
+        <h2>List of persons</h2>
+        <ul id="personList"></ul>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
